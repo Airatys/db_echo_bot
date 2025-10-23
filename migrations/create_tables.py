@@ -45,7 +45,7 @@ async def main():
                                 role VARCHAR(30) NOT NULL,
                                 is_alive BOOLEAN NOT NULL,
                                 banned BOOLEAN NOT NULL
-                            ); 
+                            );
                         """
                     )
                     await cursor.execute(
