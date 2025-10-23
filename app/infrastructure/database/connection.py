@@ -20,7 +20,7 @@ def build_pg_conninfo(
         f"@{host}:{port}/{db_name}"
     )
     logger.debug(f"Building PostgreSQL connection string (password omitted): "
-                 f"postgresql://{quote(user, safe='')}@{host}:{port}/{db_name}")
+                f"postgresql://{quote(user, safe='')}@{host}:{port}/{db_name}")
     return conninfo
 
 
